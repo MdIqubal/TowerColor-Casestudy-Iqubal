@@ -1,4 +1,10 @@
-﻿using System;
+﻿
+//For disabling unnecessary SerializeField private field warnings
+//https://forum.unity.com/threads/serializefield-warnings.560878/
+#pragma warning disable CS0649
+
+
+using System;
 using UnityEngine;
 using PnC.CasualGameKit;
 

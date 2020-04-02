@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//For disabling unnecessary SerializeField private field warnings
+//https://forum.unity.com/threads/serializefield-warnings.560878/
+#pragma warning disable CS0649
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
