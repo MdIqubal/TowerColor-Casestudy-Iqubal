@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c0fe28f23674ccd9df6c0b99249631, type: 3}
+  m_Name: Game Levels
+  m_EditorClassIdentifier: 
+  LevelList:
+  - gameLevelNo: 0
+    TowerLevels: 12
+    MaxActiveLevels: 7
+    TowerSetting: {fileID: 11400000, guid: c553fea17eb844f89bbac0a0a97c80e5, type: 2}
+    Colors: {fileID: 11400000, guid: 54125cb389f154349b86f4116668dc34, type: 2}
+    LevelCompleteScore: 0.75
+    specialBlockLevel: 3
+  - gameLevelNo: 1
+    TowerLevels: 15
+    MaxActiveLevels: 7
+    TowerSetting: {fileID: 11400000, guid: c553fea17eb844f89bbac0a0a97c80e5, type: 2}
+    Colors: {fileID: 11400000, guid: 2115150bca59b46678edea1f3d6e99ae, type: 2}
+    LevelCompleteScore: 0.8
+    specialBlockLevel: -1
+  - gameLevelNo: 2
+    TowerLevels: 18
+    MaxActiveLevels: 7
+    TowerSetting: {fileID: 11400000, guid: c553fea17eb844f89bbac0a0a97c80e5, type: 2}
+    Colors: {fileID: 11400000, guid: 827eea3b2797f4214a12707eb7ad1634, type: 2}
+    LevelCompleteScore: 0.894
+    specialBlockLevel: -1
+  - gameLevelNo: 3
+    TowerLevels: 20
+    MaxActiveLevels: 7
+    TowerSetting: {fileID: 11400000, guid: c553fea17eb844f89bbac0a0a97c80e5, type: 2}
+    Colors: {fileID: 11400000, guid: e4f595bafd9b54b0f924a4d612893d52, type: 2}
+    LevelCompleteScore: 0.894
+    specialBlockLevel: 4
+  - gameLevelNo: 4
+    TowerLevels: 22
+    MaxActiveLevels: 8
+    TowerSetting: {fileID: 11400000, guid: c553fea17eb844f89bbac0a0a97c80e5, type: 2}
+    Colors: {fileID: 11400000, guid: 4b2b3d7f9f5224e3085d9b3bbc55394c, type: 2}
+    LevelCompleteScore: 0.894
+    specialBlockLevel: -1
+  - gameLevelNo: 5
+    TowerLevels: 22
+    MaxActiveLevels: 7
+    TowerSetting: {fileID: 11400000, guid: c553fea17eb844f89bbac0a0a97c80e5, type: 2}
+    Colors: {fileID: 11400000, guid: 2115150bca59b46678edea1f3d6e99ae, type: 2}
+    LevelCompleteScore: 0.894
+    specialBlockLevel: -1
